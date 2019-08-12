@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content1 %}
+<h1>Home Page</h1>
+<p>
+		This is testing 
+	</p>
+
+	{% if bool_item %}
+	Random Number is {{ num }}
+	{% endif %}
+
+	<p>
+	{% for some_item in some_list %}
+		{% if some_item|divisibleby:"2"  %}
+				<br/>Even Number
+		{% endif %}
+
+		{{ some_item }}
+		
+	{% endfor %}<br/>
+	</p>
+
+	<p>
+		Some item is {{ some_item }}
+	</p>
+
+{% endblock content1 %}
