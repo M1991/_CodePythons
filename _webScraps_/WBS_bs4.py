@@ -37,3 +37,14 @@ for container in html_container:
     # print(brand)
     print("\n", prd_name)
     print("\n", shp_container)
+
+## Writing into CSV
+
+filename = "products.csv"  # check  for changing the file name
+f =open(filename, "w")
+headers = "brand, product_name, shipping \n"
+f.write(headers)
+
+## Save to default location 
+f.write(prd_name +""+ shp_container.replace(",","|") +"\n")
+f.close()
