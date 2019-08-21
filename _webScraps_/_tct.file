@@ -1,2 +1,9 @@
-Getting the H for all tops
+Getting the HL for all tops
 Classic 15' and 1"
+
+for t in ts
+  get the 1st top,
+  get 2nd top,
+  get the 3rd top,
+  difference in ratio of tops to total v
+  
