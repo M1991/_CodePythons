@@ -29,14 +29,15 @@ with open(loc, 'r', encoding='utf8') as src: #, open(stors,'w') as dest:
         # allC = src.read(1)     
         allC = src.readline()
         for c in allC:
-            if '"c\\":[' in src.readline():
-                # c=c.strip()
-                # if c == ',':                    
-                count = count + 1       
-                    # c = c.replace(',','')
-                # dest.write(c)
-            # elif c == ',':
-            #     print("\n")       
+            if '"t\\":[' in src.readline():
+                ts = open(timeSeqs, 'w', encoding='utf8')
+                ts.write(src.read())
+                if ']' in src.readline():
+                    ts.write("\n")
+                    count = count + 1
+                    ts.write("Sequence", + count)
+                    ts.close()                        
+                    break
         if not allC:            
             print ("End of line")
             break
