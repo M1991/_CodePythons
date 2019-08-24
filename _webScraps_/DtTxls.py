@@ -35,7 +35,7 @@ dest.close()
 #     for ltr in x:
 #         if ltr == ']':
 #             print("\n")
-#             print(itr)
+#             print(itr) 
     # if itr == ',':
     #     break
     # else:
