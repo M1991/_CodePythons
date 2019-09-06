@@ -86,3 +86,16 @@ print(count)
 f.close()
 gc.collect()
 #  dest.close()
+
+
+
+## Path for Studies 
+## https://www.nerdwallet.com/blog/investing/options-trading-101/
+## https://www.nerdwallet.com/blog/investing/options-trading-strategies/
+## 
+## 
+## 
+## 
+## 
+## 
+
