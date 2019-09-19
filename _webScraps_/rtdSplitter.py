@@ -93,7 +93,7 @@ gc.collect()
 ## https://www.nerdwallet.com/blog/investing/options-trading-101/
 ## https://www.nerdwallet.com/blog/investing/options-trading-strategies/
 ## Strategies 
-## 
+## https://scrimba.com/p/pb4WsX/cN8NmSm
 ## 
 ## 
 ## 
