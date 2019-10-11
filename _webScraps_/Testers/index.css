@@ -1,0 +1,731 @@
+::-webkit-input-placeholder {
+    color: rgba(7, 0, 0, 0.81);
+    opacity: 0.9 !important; /* for older chrome versions. may no longer apply. */
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(7, 0, 0, 0.81);
+    opacity: 0.9 !important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(7, 0, 0, 0.81);
+    opacity: 0.9 !important;
+}
+
+.vertipart {
+    transform: rotate(270deg);
+    transform-origin: top;
+    margin: 90px 10px 0px -45px;
+}
+.btnClasbg {
+    /*width:10px;*/
+    height: 34px;
+    /*font-size:15px;*/
+    opacity: 0.8;
+    padding: 0px 8px 0px 8px;
+}
+
+.hvrImg {
+    overflow:scroll;
+    width:98%;    
+}
+
+.hvrImgShow:hover {
+  pointer-events:visibleFill;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon {
+    left: 0px;
+}
+
+.right-addon .glyphicon {
+    right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+    padding-left: 30px;
+}
+
+.right-addon input {
+    padding-right: 30px;
+}
+
+.blink_me2 {
+    animation: blinker2 1s linear infinite;
+}
+
+@keyframes blinker2 {
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.7;
+        color: yellow;
+        color:red; 
+    }
+}
+
+#scroll-up-btn {
+    bottom: 20px;
+    right: 20px;
+    padding: 5px;
+    background: none;
+    color: #77c2db;
+    line-height: 1;
+    opacity: .65;
+}
+
+#scroll-up-btn:hover {
+    color: #B40E4D;
+    opacity: 1;
+}
+
+
+.dialog-ovelay .dialog .dialog-msg p {
+    margin: 0;
+    font-size: 15px;
+    color: #333
+}
+
+.dialog-ovelay .dialog footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 8px 10px
+}
+
+.dialog-ovelay .dialog footer .controls {
+    direction: rtl
+}
+
+.dialog-ovelay .dialog footer .controls .button {
+    padding: 5px 15px;
+    border-radius: 3px
+}
+
+.button {
+    cursor: pointer
+}
+
+.button-default {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    color: #5D5D5D;
+}
+
+.button-danger {
+    background-color: #f44336;
+    border: 1px solid #d32f2f;
+    color: #f5f5f5
+}
+
+.link {
+    padding: 5px 10px;
+    cursor: pointer
+}
+
+
+code span {
+    color: green;
+}
+/*Customize alert*/
+
+.totBoxes {
+    border: none;
+    border-bottom: 2px solid red;
+    padding: 0px 0px 0px 10px;
+}
+
+.someSpce {
+    line-height: 4px;
+}
+
+.alopT {
+    display: none;
+}
+
+.btnInside {
+    margin-left: -50px;
+}
+
+
+.bodySpacer {
+    margin-top: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+body { 
+    padding-bottom: 20px;
+    /*background-image: url("../images/back01.jpg");*/    
+}
+/*
+/* Set padding to keep content from hitting the edges */
+/* 
+.body-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}*/
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,*/
+select
+/*textarea*/ {
+    max-width: 280px;
+}
+
+/*   TOP  IMAGE */
+.Top-tube {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.jumbotron {
+    margin-top: 10px;
+    padding-top: 14PX;
+    padding-bottom: 14px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+/*  custom  <ul>  <li>  for keeping in one line  */
+
+li {
+    list-style: circle;
+}
+
+
+@media screen and (min-width: 768px) {
+    .toptron {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .container .toptron,
+    .container-fluid .toptron {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .toptron h1,
+    .toptron .h1 {
+        font-size: 63px;
+    }
+}
+
+
+
+/*  CUSTOM TYPE  JUMBOTRON BOOTSTRAP LUMEN TYPE*/
+
+
+@media screen and (min-width: 768px) {
+    .smbotron {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .container .smbotron,
+    .container-fluid .smbotron {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .smbotron h1,
+    .smbotron .h1 {
+        font-size: 63px;
+    }
+}
+
+.content-reflect {
+    border: 1px 1px 2px 1px;
+    padding: 5px 5px 5px 5px;
+    background-color: aliceblue;
+    box-shadow: 0 0 4px #000;
+}
+
+.content-reflectNe {
+    border: 1px 1px 2px 1px;
+    padding: 5px 5px 5px 5px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 4px #000;
+}
+
+    .content-reflect:hover {
+        border: 1px 1px 2px 1px;
+        padding: 5px 5px 5px 5px;
+        background-color: aliceblue;
+        box-shadow: none;
+    }
+
+.user-desc {
+    font-family: 'Baskerville Old Face';
+    font-size: 16px;
+}
+
+user-desc2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*  Hover to display information to user 
+
+.field-info{
+    display: none;
+}
+
+span:hover + .field-info:hover{
+    visibility: visible;
+    display:block;
+    z-index:5;
+}
+*/
+.tooltip {
+    position: relative;
+    font-size: 13px;
+    z-index: 1004;
+    display: inline-block;
+    position:absolute;
+    /* border-bottom: 1px dotted black; If you want dots under the hoverable text */
+}
+
+    /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    font-size:13px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1005;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+    overflow:hidden;
+    z-index:1005;
+    
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*
+        =========================================================================================================
+
+    
+
+.modal-image{
+    width:40%;
+    height:40%;
+}
+
+.mod-image {
+    width: 700px;
+    height: 400px;
+}*/
+
+/*   
+    MODAL OPTIONS CALCULATING STRAIGHT LENGTH
+*/
+
+.modal-dialog {
+    z-index: 1050;
+    width: 85%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modal-dialogSmall {
+    z-index: 1050;
+    width: 46%;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+.modClass:hover {
+    text-decoration: underline;
+    color: darkgreen;
+    pointer-events: painted;
+    cursor: pointer;
+}
+
+
+/*
+        =========================================================================================================
+
+    */
+
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+    input[type="number"]:hover,
+    input[type="number"]:focus {
+        -moz-appearance: inherit;
+    }
+
+
+/*
+        =========================================================================================================
+    BASIC USER CONTENT AND DESCRIPTION
+  */
+
+.bubox {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #122b40;
+    text-align: center;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 15px;
+}
+
+.bubox:hover {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid azure;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #122b40;
+    border-radius: 15px;
+}
+
+.NextDesc {
+    font-size: 18px;
+}
+/*
+.buTextContent{
+
+}
+*/
+/*
+.buDesc{
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#000(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  /* transition effect. not necessary */ /*
+  transition: opacity .2s, visibility .2s;
+  z-index: 1;
+}
+
+.buHover{
+   transition: .2s;
+  transform: translateY(1em);
+}
+
+.bubox:hover .buDesc {
+  visibility: visible;
+  display: block;
+  overflow: scroll;
+  opacity: 1;
+  background-color: black;
+  z-index: 101;
+}
+
+.bubox:hover .bubox {
+  visibility: hidden;
+  display: none;
+  
+  opacity: 0;
+  
+}
+
+/*
+.bubox:hover .buHover {
+  transform: translateY(0);
+  display: block;
+  overflow: scroll;
+}
+*/
+
+.topletter {
+    font-family: Courier New, Courier, monospace;
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+
+/*   TOOLTIP   
+*/
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+ */
+/*
+    BASIC USER FULL CONTAINER
+*/
+.buContainer {
+    font-family: "Lato", sans-serif;
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+}
+
+div.tab {
+    overflow: hidden;
+    background-color: inherit;
+    color: #519291;
+}
+
+    /* Style the buttons inside the tab */
+
+
+/* Create an active/current tablink class */
+div.tab li.active {
+    background-color: white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-color: black;
+    z-index: 7;
+    color: black;
+}
+
+div.tab li a {
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background-color: white;
+    margin-top: -1px;
+    padding: 6px 12px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 2;
+    /*
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+ */
+}
+
+div.tab:active, div.tab:focus {
+   box-shadow:none;
+    z-index: 6;
+   
+}
+
+.tabcontent:active, .tabcontent:focus {
+    z-index: 7;
+    background-color: white;
+}
+
+/*
+.tabcontent:active, .tabcontent::before {
+    border: none;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+*/
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+.tablinks {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0.7;
+}
+
+.active {
+    opacity: 1.0;
+}
+
+.tablinks:active, .tablinks:focus {
+    /*  border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 5;*/
+    background-color: white;
+    opacity: 1.0;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    input[type="date"].bufcus-small,
+    input[type="time"].bufcus-small,
+    input[type="datetime-local"].bufcus-small,
+    input[type="month"].bufcus-small {
+        line-height: 34px;
+    }
+
+    input[type="date"].input-sm,
+    input[type="time"].input-sm,
+    input[type="datetime-local"].input-sm,
+    input[type="month"].input-sm,
+    .input-group-sm input[type="date"],
+    .input-group-sm input[type="time"],
+    .input-group-sm input[type="datetime-local"],
+    .input-group-sm input[type="month"] {
+        line-height: 30px;
+    }
+
+    input[type="date"].input-lg,
+    input[type="time"].input-lg,
+    input[type="datetime-local"].input-lg,
+    input[type="month"].input-lg,
+    .input-group-lg input[type="date"],
+    .input-group-lg input[type="time"],
+    .input-group-lg input[type="datetime-local"],
+    .input-group-lg input[type="month"] {
+        line-height: 46px;
+    }
+}
+
+
+/* BS CALLOUTS FOR QUESTIONS */
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}

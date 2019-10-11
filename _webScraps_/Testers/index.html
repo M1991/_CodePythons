@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-sanitize.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <title>Testing</title>
+    </head>
+    <body ng-app="testApp">
+      <br><br><br>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                     
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="~/images/NexthermalLogo.png" alt="Logo" style="height:30px;width:155px;margin-top:8px;"/>
+                        </a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">                                            
+                            <li><a href="#">HTML Link </a></li>                            
+                            <li><a href="#">HTML Link </a></li>                            
+                            <li><a href="#">HTML Link </a></li>                                                                             
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div id="testCtrl" data-ng-controller="testCtrl as testCtrl">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            Navigation Zone
+
+                        </div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">         
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Section Details</div>
+                                <div class="panel-body">
+                                    <!-- <div class="well well-sm">Question Typpical</div> -->
+                                    <div class="bs-callout bs-callout-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <div class="bs-callout bs-callout-success">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <!-- <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <textarea cols="25" rows="25" style="width: 100%;" readonly> Typical Questions</textarea>
+                                        </span>
+                                    </div>--><br> 
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><input type="radio" name="QS1" readonly></span>
+                                        <input type="text" class="form-control" style="width: 50%;" placeholder="Answer Option " aria-describedby="basic-addon2" readonly>
+                                    </div><br>
+                                    <div class="input-group">
+                                            <span class="input-group-addon"><input type="radio" name="QS1" readonly></span>
+                                            <input type="text" class="form-control" style="width: 50%;" placeholder="Answer Option " aria-describedby="basic-addon2" readonly>
+                                        </div><br>
+                                    <div class="input-group">
+                                            <span class="input-group-addon"><input type="radio" name="QS1" readonly></span>
+                                            <input type="text" class="form-control" style="width: 50%;" placeholder="Answer Option " aria-describedby="basic-addon2" readonly>
+                                        </div><br>
+                                    <div class="input-group">
+                                            <span class="input-group-addon"><input type="radio" name="QS1" readonly></span>
+                                            <input type="text" class="form-control" style="width: 50%;" placeholder="Answer Option " aria-describedby="basic-addon2" readonly>
+                                        </div><br>                                          
+                                    <span style="float:right">
+                                        <button type="button" class="btn btn-danger">Previous</button>&nbsp;&nbsp;
+                                        <button type="button" class="btn btn-info">Next</button>&nbsp;&nbsp;
+                                        <button type="button" class="btn btn-success">Submit</button>   
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> 
+
+                        </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <footer>
+                    <hr />            
+                    <a id="scroll-up-btn" onclick="topFunc();" style="float:right;"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>            
+                    <p></p>
+                    <p style="color:darkgray">&nbsp;&nbsp;&copy; @DateTime.Now.Year. Footer &middot; Details &middot; Details </p>
+                    
+                </footer>
+            </div>
+            <script type="text/javascript">
+            document.addEventListener('contextmenu', event => event.preventDefault());
+            </script>
+    </body>
+</html>
